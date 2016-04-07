@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/jumbotron-narrow.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
 
-    <title>toomuchtime</title>
+    <title>nlpdx</title>
   </head>
   <body>
 
@@ -16,8 +16,6 @@
      <div class="header clearfix">
        <nav>
          <ul class="nav nav-pills pull-right">
-           <li role="presentation"><a href="index.html">here</a></li>
-           <li role="presentation"><a href="http://apod.nasa.gov/apod/astropix.html">away</a></li>
            <li role="presentation" class='reset'><a href="#">reset</a></li>
          </ul>
        </nav>
@@ -26,27 +24,45 @@
 
      <div class="jumbotron">
 
-      <p>
-        <a class="btn-lg btn-blk" href="#" role='button'>nlPDX</a>
-      </p>
+       <button id='search' type="button" class="btn-lg btn-default btn-circle">
+         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+       </button>
 
      </div>
 
-     <div class="row marketing">
-       <div class="col-lg-6 hid">
+     <div class="row compass">
+
+       <div class='col-md-4 hid'>
+
+         <button id='n' type="button" class="btn btn-default btn-circle">n</button>
+         <button id='s' type="button" class="btn btn-default btn-circle">s</button>
+         <button id='e' type="button" class="btn btn-default btn-circle">e</button>
+         <button id='w' type="button" class="btn btn-default btn-circle">w</button>
 
        </div>
 
+       <div class='col-md-1 col-md-offset-5 hid'>
+         <button id='drink' type="button" class="btn btn-default btn-circle">
+          <span class="glyphicon glyphicon-glass" aria-hidden="true"></span>
+         </button>
+       </div>
+       <div class='col-md-1 hid'>
+         <button id='dance' type="button" class="btn btn-default btn-circle">
+          <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+         </button>
+       </div>
+       <div class='col-md-1 hid'>
+         <button id='date' type="button" class="btn btn-default btn-circle">
+          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+         </button>
+       </div>
+
+     </div>
+     <div class="hoverword">
      </div>
 
-     <div id='showcase'></div>
-     <canvas id='soundbar' width='300px' height='3px'></canvas>
-
      <footer class="footer">
-       <p>&copy; 2016 Starstuff, LLC.</p>
-       <ul class="nav nav-pills pull-right">
-         <li role="presentation" id='mail'><a href="#">communicate</a></li>
-       </ul>
+       <p>&copy; 2016 demep</p>
      </footer>
 
    </div>

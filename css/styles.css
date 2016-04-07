@@ -4,6 +4,54 @@ a {
 
 a:hover {
 	color: gray;
+	text-decoration: none;
+}
+
+.hid {
+	display: none;
+}
+
+body {
+	margin:40px;
+}
+
+.compass {
+	padding-right: 15px;
+  padding-left: 15px;
+	margin: 40px 0;
+}
+.compass p + h4 {
+  margin-top: 28px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+}
+
+.btn-circle:active,
+.btn-circle:focus,
+.btn-circle:hover {
+	outline: none !important;
+}
+
+.btn-circle:active {
+	background: green !
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 10px;
+  line-height: 1.33;
+  border-radius: 50%;
+	border: none;
 }
 
 .btn-blk {
@@ -17,25 +65,8 @@ a:hover {
 	color: gray;
 }
 
-.hid {
+.hoverword {
+	text-align: center;
 	display: none;
-}
-
-.hidlate {
-	display: none;
-}
-
-#showcase {
-	margin-left: 10%;
-	margin-right: 10%;
-	display: none;
-}
-
-#soundbar {
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	margin-left: 28%;
-	margin-right: 28%;
-	margin-bottom: 10%;
+	color: gray;
 }
